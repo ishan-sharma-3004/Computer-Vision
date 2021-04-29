@@ -4,7 +4,7 @@ from matplotlib.pyplot import imread
 from mpl_toolkits.mplot3d import Axes3D 
 import scipy.ndimage as ndimage 
  
-imageFile = '/Users/ishansharma/Desktop/Screenshot 2021-04-17 at 2.17.18 AM.jpeg' 
+imageFile =input()
 mat = imread(imageFile) 
 mat = mat[:,:,0] # get the first channel 
 rows, cols = mat.shape 
